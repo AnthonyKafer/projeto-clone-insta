@@ -6,6 +6,7 @@
     <title>Instagrola</title>
     <link rel="shortcut icon" href="imgs/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive-layout.css">
 </head>
 <body>
 
@@ -35,14 +36,14 @@
             </form>
         
         <!-- Seção separada por linha e "ou" -->
-            <section>
+            <section class="separation-section"> 
                 <div id="line"></div>
-                <p id="separation-or"></p>
-                <a href="">
-                    <img src="imgs/logo_facebook.svg" alt="">
+                <p id="separation-or">ou</p>
+                <a href="#" id="btn-log-facebook">
+                    <img src="imgs/logo_facebook.svg" id="img-facebook" alt="fodase">
                     Entrar com o Facebook
                 </a>
-                <a href="pags/pag-pass-forgot.html">Esqueceu a senha?</a>
+                <a href="pags/pag-pass-forgot.html" id="forgot-pass">Esqueceu a senha?</a>
             </section>
         </div>
 
@@ -50,6 +51,15 @@
         <div class="create-account-container">
             <p>Não tem uma conta?</p>
             <a href="pags/pag-create-account.html">Cadastre-se</a>
+        </div>
+        <div class="download-container">
+            <p>Obtenha o aplicativo.</p>
+            <a href="#" class="download-figure">
+                <img src="imgs/gplay_btn.png" alt="download com google play">
+            </a>
+            <a href="#" class="download-figure">
+                <img src="imgs/apple_btn.png" alt="download com apple store">
+            </a>
         </div>
     </div>
     </main>
@@ -99,7 +109,6 @@
                 </li>
 
             </ul>
-            <input type="text">
             <p>&copy; Instagram from Anthony</p>
         </footer>
     </section>

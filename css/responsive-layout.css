@@ -1,0 +1,15 @@
+@media screen and (max-width: 650px){
+    input::placeholder {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1080px){
+    .banner-container{
+        display:none;
+    }
+    
+    .aditional-info{
+        margin-bottom: 1rem;
+    }
+}
