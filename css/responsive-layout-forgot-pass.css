@@ -1,0 +1,27 @@
+@media screen and (max-width: 600px){
+    .actions-container{
+        width: 60%;
+    }
+    .insta-bar{
+        background-size: 20%;
+    }
+    
+}
+
+@media screen and (max-width: 800px){
+    .actions-container{
+        width: 60%;
+    }
+    .insta-bar{
+        background-size: 20%;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .actions-container{
+        width: 40%;
+    }
+    .insta-bar{
+        background-size: 10%;
+    }
+}
