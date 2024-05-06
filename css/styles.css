@@ -13,6 +13,10 @@
     --border-gray:#bbbbbb;
 }
 
+input, button{
+    cursor: pointer;
+}
+
 /* inicio do estilo */
 
 body{

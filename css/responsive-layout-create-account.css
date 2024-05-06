@@ -1,0 +1,24 @@
+@media screen and (min-width: 400px){
+    .actions-container, .create-account-container{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 700px){
+    .actions-container, .create-account-container{
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 850px){
+    .actions-container, .create-account-container{
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 1410px){
+    .actions-container, .create-account-container{
+        width: 40%;
+    }
+}
+
