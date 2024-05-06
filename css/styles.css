@@ -210,3 +210,9 @@ button{
 .aditional-info-items a{
     font-size: 12px;
 }
+
+footer a{
+    text-decoration: none;
+    text-emphasis: none;
+    color: var(--border-gray);
+}
